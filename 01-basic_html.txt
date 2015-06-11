@@ -14,7 +14,7 @@ Open it up and type in the code below.
 </head>
 <body>
 
-This is my first web page!
+This is my first web page! The body tag starts the main section of the webpage.
 
 <h1>H1, H2, H3, H4 tags increase font-size</h1>
 
@@ -46,6 +46,10 @@ Most tags must have an open and closing tag. But not always.
     <td>This cell is in the 2nd row.</td>
   </tr>
 </table>
+
+<p><a href="http://www.google.com">This is a link to Google!</a></p>
+
+<p><a href="#">The hash will bring you to the top of the current page.</a></p>
 
 </body>
 </html>
