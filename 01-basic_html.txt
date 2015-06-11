@@ -9,8 +9,8 @@ Open it up and type in the code below.
 <html>
 <head>
 <title>Basic HTML Template</title>
-<!-- This is a comment tag. These will not affect webpage appearance --!>
-<!-- Title tags set the title of the webpage in the browser tab --!>
+<!-- This is a comment tag. These will not affect webpage appearance -->
+<!-- Title tags set the title of the webpage in the browser tab -->
 </head>
 <body>
 
@@ -36,12 +36,12 @@ Most tags must have an open and closing tag. But not always.
 
 <table>
   <tr>
-    <!-- tr stands for table row --!>
+    <!-- tr stands for table row -->
     <td>This is a table cell.</td>
     <td>These cells are in the same row.
   </tr>
   <tr>
-    <!-- This is the start of a new row --!>
+    <!-- This is the start of a new row -->
     <td>This is a table cell in the 2nd row.</td>
     <td>This cell is in the 2nd row.</td>
   </tr>
