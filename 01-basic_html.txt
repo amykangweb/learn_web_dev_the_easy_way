@@ -1,4 +1,5 @@
-Download and install a text editor. Any editor will do for now even notepad. I suggest Sublime Text. Download at: http://www.sublimetext.com
+Download and install a text editor. Any editor will do for now even notepad.
+I suggest Sublime Text. Download at: http://www.sublimetext.com
 
 Open it up and type in the code below.
 
@@ -51,10 +52,14 @@ Most tags must have an open and closing tag. But not always.
 
 -----------------------------------------------------------------
 
-Save this document as index.html on your desktop or wherever you want to save it. Find the file then right click and open it in a web browser (Chrome, Firefox, etc.).
+Save this document as index.html on your desktop or wherever you want to save
+it. Find the file then right click and open it in a web browser
+(Chrome, Firefox, etc.).
 
 You have created your first webpage!
 
-Type the code over and over until you have the tags memorized. Try adding more elements to the document using the tags you have just learned. Search the internet for answers if you run into any errors.
+Type the code over and over until you have the tags memorized.
+Try adding more elements to the document using the tags you have just learned.
+Search the internet for answers if you run into any errors.
 
 Do not move on until you have memorized and understand all these tags.
