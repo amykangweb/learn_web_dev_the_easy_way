@@ -18,7 +18,7 @@ Let's begin by creating a simple html page.
   <li><a href="#">Link 3</a></li>
 </ul>
 
-<div>
+<div class="first">
 <!-- Div tags can be used to divide up your page into organized sections -->
 CSS will add styling to your webpage.
 </div>
