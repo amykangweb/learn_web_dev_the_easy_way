@@ -1,0 +1,59 @@
+If you don't know what the command line is, look it up right now and read a
+little about it before starting this tutorial.
+
+I will teach you my most frequently used commands.
+
+For Windows users please download and use Git Bash at:
+https://msysgit.github.io/
+
+----------------------------------------------------------------------------
+
+Type each of these commands into the command line and hit enter.
+
+cd
+
+When you open the terminal you will automatically start in your home directory.
+To get back to the home directory at anytime, type in cd and hit enter.
+
+cd <directory name>
+
+To navigate into a folder in your current location, enter cd and the folder
+name.
+
+..
+
+To move up one directory, enter ".." .
+
+ls
+
+If you wish to see all files and folders in your current directory.
+
+mkdir <foldername>
+
+If you wish to create a new directory/folder in your current location.
+
+touch <filename>
+
+If you wish to create a new file in your current location.
+
+mv <filename> <new filename>
+
+This will rename your file if not given a new location.
+
+mv <filename> <new location>
+
+This will move your file to the new location. Example: mv file.html new_folder/
+This command will move your file into new_folder.
+
+rm <filename>
+
+This will remove the corresponding file in the current directory.
+
+rm -rf <folder>/
+
+This will remove the entire directory and all contents. Be careful.
+
+----------------------------------------------------------------------------
+
+Hitting the up arrow will bring back your last command entered.
+
