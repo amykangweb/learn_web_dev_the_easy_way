@@ -1,0 +1,121 @@
+For this tutorial you must have Ruby installed. Please stop right now and find
+out how to install Ruby on your system. Once finished come back and start this
+tutorial.
+
+You can check that you have Ruby installed by entering ruby -v into the command
+line.
+
+For Windows users, go ahead and install RailsInstaller. It will give you
+everything you need to start developing Rails applications, including Ruby.
+
+http://railsinstaller.org/en
+
+-----------------------------------------------------------------------------
+
+You can set variables in Ruby by putting the variable name to the left of
+the value.
+
+firstname = "Wilbur"
+lastname = "Kang"
+age = 4
+
+In programming, text is called a String. Strings must have quotations marks
+surrounding them.
+
+Numbers/Integers do not need quotation marks. Surrounding an integer with
+quotations will turn it into a string.
+
+-----------------------------------------------------------------------------
+
+Open up your text editor and type the code below.
+
+-----------------------------------------------------------------------------
+
+firstname = "Wilbur"
+lastname = "Kang"
+age = 4
+
+if age > 10
+  puts "That is an old cat!!"
+else
+  puts "That cat is still young."
+end
+
+if firstname == "Wilbur"
+  puts "Hello Wilbur!"
+elsif firstname == ""
+  puts "Please enter a name."
+else
+  puts "I don't know you."
+end
+
+puts "I will print out the variable values with string interpolation."
+
+print "Your firstname is #{firstname}"
+print "Your lastname is #{lastname}"
+print "Your age is #{age}"
+
+puts "Can you see the difference between print and puts?"
+puts "Puts adds a new line. Print does not."
+
+-----------------------------------------------------------------------------
+
+Save the code above as first.rb. Or whatever filename you want as long as it
+ends with ".rb" .
+
+To run this code, open up your terminal and navigate to wherever the file was
+saved and enter ruby first.rb.
+
+Study and compare the output with the code.
+
+Try changing the value of the variables and running the code again.
+
+-----------------------------------------------------------------------------
+
+In an if statement, you can have as many elsifs as you want. The "else" always
+comes last, and it catches all conditions that do not equate to true in the if statement.
+
+You can also compare variables like so.
+
+a = 1
+b = 2
+
+if a < b
+  print "a is less than b"
+end
+
+To check equality, you must use the double equals sign "==" .
+
+If statements will work without elsifs or an else.
+
+-----------------------------------------------------------------------------
+
+You can also give the if statement two conditions like so.
+
+a = 1
+b = 2
+name = "Amy"
+
+if a < b && name == "Amy"
+  puts "This is true!"
+else
+  puts "This is false!"
+end
+
+"&&" stands for "and". Both conditions must return true to pass the check.
+"||" stands for "or". Either one must equate to true to pass the check.
+
+Example:
+
+if a < b || name == "Wilbur"
+  puts "One of these conditions passed."
+end
+
+Since the variable a is smaller than b, the condition equated to true.
+
+----------------------------------------------------------------------------
+
+Try writing your own code based on what you've learned so far. Save it as an
+"rb" file. Run it in the terminal by entering ruby <filename>.rb.
+
+Type the code over and over until you have the syntax memorized.
