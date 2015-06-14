@@ -1,0 +1,53 @@
+Open up your text editor and type in the following code.
+
+-------------------------------------------------------------------------------
+
+name = "Amy"
+
+if name != "Wilbur"
+  puts "The name is not Wilbur."
+else
+  puts "The name is Wilbur!"
+end
+
+-------------------------------------------------------------------------------
+
+Save and run the code and you should see "The name is not Wilbur." printed to
+the console. "!=" means "does not equal". Because the name variable did not
+equate to "Wilbur" the statement is true.
+
+if name != "Wilbur" can be translated to:
+
+if name "does not equal" Wilbur return...
+
+Next, type and run the code below.
+
+-------------------------------------------------------------------------------
+
+puts "You can add, subtract, multiply, and divide variables, strings, and
+integers."
+
+puts 2 + 2
+puts 2 * 2
+puts 4 - 2
+puts 4/2
+
+kitty = "Wilbur"
+age = 4
+
+puts "You can concatenate strings and variables together."
+
+puts kitty + " is a black cat. " + " He is " + age.to_s + " years old."
+
+puts "Or you can use string interpolation."
+
+puts "#{kitty} is a black cat. He is #{age} years old."
+
+-------------------------------------------------------------------------------
+
+Study and compare the console output with the code you have written.
+
+The age variable must be converted to a string with the ".to_s" method in order
+to be concatenated since it is an integer. ".to_s" means "To String".
+
+With string interpolation, integers are automatically converted to a string.
